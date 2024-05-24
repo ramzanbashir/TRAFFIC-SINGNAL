@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-image: url('images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.car {
+    width: 350px;
+    height:400px;
+    position: absolute;
+    bottom: 140px;
+    left: 50px;
+    
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    background-color: rgb(184, 233, 204);
+    text-shadow: rgb(52, 249, 52);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: rgb(52, 249, 52);
+
+}
+
+button:hover{
+color: rgb(205, 121, 31);
+cursor: pointer;
+}
+
+.signals {
+    position: absolute;
+    bottom: 43px;
+    left: 20px;
+    display: flex;
+}
+
+.signal {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: black;
+}
